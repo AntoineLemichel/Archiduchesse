@@ -281,6 +281,84 @@ header .menu-image a {
     color: white;
     font-size: 0.8rem;
 }
+/* This end for middle */
+/* Style for footer */
+footer {
+    position: relative;
+    bottom: 0;
+}
+footer p {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+}
+footer h2, h3 {
+    font-weight: 100;
+}
+footer h2 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+footer h3 {
+    font-size: 1.4rem;
+}
+
+
+footer p strong {
+    color: #777777;
+}
+footer p strong.black {
+    color : black;
+}
+footer .footer-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* .made-France, .back, .delivery, .visa {
+    width: 40%;
+    text-align: center;
+} */
+footer img {
+    width: 80px;
+    margin: auto;
+}
+footer .footer-image div {
+    width: 45%;
+    margin: auto;
+}
+footer .footer-bottom {
+    background: #F5F5F5;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #777777;
+}
+footer .footer-bottom p {
+    text-align: center;
+}
+footer .footer-bottom img {
+    width: 80%;
+    margin: 1% 1% 1% 1%;
+}
+footer .footer-bottom input[type="email"]{
+    width: 80%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 0.8rem;
+    background: url("../mail.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 32px;
+}
+footer .footer-bottom h5 {
+    font-size: 1.8rem;
+    margin: 0;
+    line-height: 6rem;
+}
 
 
 
