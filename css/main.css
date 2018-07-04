@@ -96,10 +96,191 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* 
+This a principal property style into remove
+*/
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    overflow-x: auto;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+header{
+    display: flex;
+    border-bottom: 2px solid grey;
+    margin: 0 0 3% 0;
+}
+.hidden-mobile {
+    display: none;
+}
+.container {
+    width: 100%;
+}
+/* This section, contain all of color for chausette */
+.aubergine {
+    background: #614051;
+}
+.aubergine-font {
+    color: #614051;
+}
+.pink-raspberry {
+    background: pink;
+}
+.pink-raspberry-font {
+    color: pink;
+}
+.rouge-maison {
+    background: darkred;
+}
+.rouge-maison-font {
+    color: darkred;
+}
+.pink-panthere {
+    background:#FDA7C4;
+}
+.pink-panthere-font {
+    color: #FDA7C4;
+}
+.pink-little-girl {
+    background: #F5CDD5;
+}
+.pink-little-girl-font {
+    color :#F5CDD5;
+}
+.purple-blackberry {
+    background: #6D566F;
+}
+.purple-blackberry-font {
+    color: #6D566F;
+}
+.purple-just {
+    background: #CDB0C8;
+}
+.purple-just-font {
+    color :#CDB0C8;
+}
+.purple-violine {
+    background:#AA5787;
+}
+.purple-violine-font {
+    color: #AA5787;
+}
+.purple-ultra {
+    background: #A65EAD;
+}
+.purple-ultra-font {
+    color: #A65EAD;
+}
+.purple-violette {
+    background: #776397;
+}
+.purple-violette-font {
+    color: #776397;
+}
+.blue-ligne {
+    background: #8ABBF9;
+}
+.blue-ligne-font {
+    color: #8ABBF9;
+}
+.blue-little-boy {
+    background: #C5DEEF;
+}
+.blue-little-boy-font {
+    color: #C5DEEF;
+}
+.blue-turquoise {
+    background: #48BAE0;
+}
+.blue-turquoise-font {
+    color :#48BAE0;
+}
+.blue-duck {
+    background: #157E90;
+}
+.blue-duck-font {
+    color :#157E90;
+}
 
+/* 
+In the next section, before principal property style remove, it's mobile first style
+*/
+/* I starting style for header */
+header .menu-image {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+header .menu-image > img {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+header .menu-image ul li:last-child {
+    width: 40px;
+    align-self: center;
+}
+header .menu-image img {
+    padding: 0 20px 0 5px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+header .menu-image a {
+    width: 200px;
+    min-width: 150px;
+    max-width: 450px;
 
-
-
+}
+/* This end style for header */
+/* I starting style for body */
+.middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.middle-selection {
+    margin: 1% 1% 1% 1%;
+    width: 45%;
+}
+.middle .remnant-sale img {
+    width: 80% !important;
+}
+.middle .remnant-sale > p {
+    border: 1px solid grey;
+    width: 80px;
+    border-radius: 5px;
+    background: #E7E7E7;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    padding: 0.5rem 0.4rem;
+}
+.middle .remnant-sale p:last-child {
+    background: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+.selection-contain {
+    box-shadow: 0 5px 5px rgb(166,166,166);
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.select-size{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    border-radius: 0 0 7px 7px;
+    color: white;
+    font-size: 0.8rem;
+}
 
 
 
