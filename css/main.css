@@ -251,7 +251,7 @@ header .menu-image a {
     width: 45%;
 }
 .middle .remnant-sale img {
-    width: 80% !important;
+    width: 70% !important;
 }
 .middle .remnant-sale > p {
     border: 1px solid grey;
@@ -360,6 +360,38 @@ footer .footer-bottom h5 {
     line-height: 6rem;
 }
 
+
+@media (min-width: 750px){
+    .middle-selection {
+        width: auto;
+    }
+    footer .footer-image {
+        flex-wrap: nowrap;
+        margin-left: 2%;
+    }
+    footer .footer-bottom img {
+        width: 40%;
+        margin: auto;
+    }
+    footer .footer-bottom {
+        width: 100%;
+    }
+    footer .top-footer article:first-child{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    footer .top-footer article h2 {
+        text-align: center;
+        width: 100%;
+    }
+    footer .top-footer article {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 30%;
+        margin: auto;
+    }
+}
 
 
 
